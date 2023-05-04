@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    android:backgroundTint="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvTopic_layout_height"
+        android:layout_marginLeft="@dimen/tvMain_margin_left"
+        android:layout_marginTop="@dimen/tvMain_margin_top"
+        android:layout_marginRight="@dimen/tvMain_margin_right"
+        android:layout_marginBottom="@dimen/tvMain_margin_top"
+        android:background="@drawable/border"
+        android:backgroundTint="#482E1F"
+        android:text="@string/tvBudget"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/tvTopic_textSize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMonthMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvMain_layoutHeight"
+        android:layout_marginLeft="@dimen/tvMain_margin_left"
+        android:layout_marginRight="@dimen/tvMain_margin_right"
+        android:layout_marginBottom="@dimen/tvMain_margin_bottom"
+        android:background="@color/textBox"
+        android:drawableRight="@drawable/icon_edit"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/edtMonth"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/edtSalaryMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvMain_layoutHeight"
+        android:layout_marginLeft="@dimen/tvMain_margin_left"
+        android:layout_marginRight="@dimen/tvMain_margin_right"
+        android:layout_marginBottom="@dimen/tvMain_margin_bottom"
+        android:background="@color/textBox"
+        android:drawableRight="@drawable/icon_edit"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/edtSalary"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="Bill Payments"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPercentage1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tvMain_layoutHeight"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxHeight="48dp"
+            android:hint="Percentage"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Installment"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPercentage2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tvMain_layoutHeight"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxHeight="48dp"
+            android:hint="Percentage"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="Rental"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPercentage3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tvMain_layoutHeight"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxHeight="48dp"
+            android:hint="Percentage"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="Savings"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPercentage4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tvMain_layoutHeight"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxHeight="48dp"
+            android:hint="Percentage"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="Grocery"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPercentage5"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tvMain_layoutHeight"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/textBox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxHeight="48dp"
+            android:hint="Percentage"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btnMain_margin_left"
+        android:layout_marginTop="@dimen/tvMain_margin_top"
+        android:layout_marginRight="@dimen/btnMain_margin_right"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_next"
+        android:text="Save"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/button_main_textSize"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/corner_radius" />
+
+    <Button
+        android:id="@+id/btnViewBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btnMain_margin_left"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/btnMain_margin_right"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_view"
+        android:text="@string/btnView"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/button_main_textSize"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/button_main_textSize" />
+
+</LinearLayout>
