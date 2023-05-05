@@ -19,12 +19,7 @@ of mental health which is also essential during a crisis.
 # Individual Contribution 
 
 ## IT21262104 – Budget Controller 
-This section helps the user to manage the budget for a relevant month. Once the user enters the month, 
-salary, and the categories that want to spend money with the expected percentages, the system will 
-automatically calculate and display the amounts of money. If the summation of the percentage amounts 
-that the user entered is greater than 100, an alert will be sent to the user automatically. Therefore, the 
-user can plan to use the monthly income efficiently at the beginning of the month. The user can update, 
-delete, or add a new category as preferred. 
+The main purpose of this section is to provide features for the user to plan the budget for a month at the beginning of the relevant month. The user can add the month, the salary for the month, and the expected expenditure amounts for the respective categories as percentages. Then it will be saved as a new budget plan and the system will automatically calculate and display the expenditure amounts for the respective categories. Then the system will display the total expected expenditure amount and the remaining amount from the salary. If wants, the user can update the percentage amount of expenses of any category and then the system will calculate the budget accordingly and display it automatically. When it comes to the end of the month, the user can delete the budget record if needed and add a new budget record. 
 
 ## IT21261732 – Bill Payment 
 This section helps to keep track of all bill details and reminds the due dates of bills monthly wise. Initially, 
