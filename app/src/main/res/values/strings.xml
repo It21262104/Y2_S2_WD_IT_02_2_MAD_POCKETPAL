@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">POCKETPAL</string>
+    <string name="tvCreditTracker">My Credits</string>
+    <string name="tvSelectMonth">Month</string>
+    <string name="edtMonth">Insert Month</string>
+    <string name="tvAmount">Amount</string>
+    <string name="edtAmount">Insert Amount</string>
+    <string name="tvCurrentAmount">Current Amount</string>
+    <string name="tvShowAmount">Rs.5000.00</string>
+    <string name="btnAddNewExpense">Add New Expense</string>
+    <string name="btnMyExpenses">My Expenses</string>
+    <string name="btnDeleteRecord">Delete Record</string>
+    <string name="tvAddNewExpense">Add New Expense</string>
+    <string name="tvPurpose">Purpose</string>
+    <string name="edtPurpose">Enter Purpose</string>
+    <string name="tvDate">Date</string>
+    <string name="edtDate">Select Date</string>
+    <string name="tvExAmount">Amount</string>
+    <string name="edtExAmount">Amount Spent</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnCheckBalance"> My New Balance</string>
+    <string name="tvMyExpenses">My Expenses</string>
+    <string name="btnBack">Back to My Credits</string>
+    <string name="btnMonth1">January</string>
+    <string name="btnMonth2">February</string>
+    <string name="btnMonth3">March</string>
+    <string name="btnMonth4">April</string>
+    <string name="btnMonth5">May</string>
+    <string name="btnMonth6">June</string>
+    <string name="tvViewExpenses">January</string>
+    <string name="tvDisplayPurpose"><p>   Purpose</p>
+        <p>       </p>
+        <p> XXXXXXXXXX</p>
+    <p>RS. 1500.00</p>
+        <p>  </p>
+    <p>Date : 2023.03.14</p></string>
+    <string name="btnBack2">Back</string>
+    <string name="tvUpdateExpense">Edit Expense</string>
+    <string name="edtUpdatePurpose">Edit Purpose</string>
+    <string name="edtUpdateDate">Edit Date</string>
+    <string name="edtUpdateAmount">Edit Amount</string>
+    <string name="btnUpdateExpense">Update</string>
+    <string name="tvNews1">News Update 1</string>
+    <string name="tvNews2">News Update 2</string>
+    <string name="tvNews3">News Update 3</string>
+    <string name="btnMoreNews">See More Updates</string>
+    <string name="btnMyBudget">MY Budget</string>
+    <string name="btnMyCredits">My Credits</string>
+    <string name="btnMyBills">My Bills</string>
+    <string name="btnMyGoals">My Goals</string>
+    <string name="tvMentalHealthTip">   <p> </p>
+        <p>Daily Mental Health Tip</p></string>
+    <string name="btnAddData">Add Expense</string>
+</resources>

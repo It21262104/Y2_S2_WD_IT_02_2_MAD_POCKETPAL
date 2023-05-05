@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    tools:context=".view_expenses">
+
+    <TextView
+        android:id="@+id/tvMyExpenses"
+        android:layout_width="359dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:gravity="center"
+        android:text="@string/tvMyExpenses"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rvCredit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCredit"
+        android:layout_width="405dp"
+        android:layout_height="417dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMyExpenses" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="307dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="131dp"
+        android:backgroundTint="@color/background_main"
+        android:drawableRight="@drawable/icons8_coins_50"
+        android:drawablePadding="2dp"
+        android:text="@string/btnBack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvCredit" />
+
+    <TextView
+        android:id="@+id/tvLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintEnd_toEndOf="@+id/rvCredit"
+        app:layout_constraintStart_toStartOf="@+id/rvCredit"
+        app:layout_constraintTop_toTopOf="@+id/tvMyExpenses" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
