@@ -13,20 +13,20 @@ import com.google.firebase.database.FirebaseDatabase
 
 class view_per_month : AppCompatActivity() {
     private lateinit var tvShowMonth : TextView
-    private lateinit var tvShowAmount : TextView
+    lateinit var tvShowAmount : TextView
 
     private lateinit var purpose1 : TextView
     private lateinit var purpose2 : TextView
     private lateinit var purpose3 : TextView
     private lateinit var purpose4 : TextView
 
-    private lateinit var amount1 : TextView
-    private lateinit var amount2 : TextView
-    private lateinit var amount3 : TextView
-    private lateinit var amount4 : TextView
+    lateinit var amount1 : TextView
+    lateinit var amount2 : TextView
+    lateinit var amount3 : TextView
+    lateinit var amount4 : TextView
 
-    private lateinit var totalEx : TextView
-    private lateinit var RemCredit : TextView
+    lateinit var totalEx : TextView
+    lateinit var RemCredit : TextView
 
     private lateinit var btnUpdate : Button
     private lateinit var btnDelete : Button
@@ -56,12 +56,12 @@ class view_per_month : AppCompatActivity() {
         }
     }
 
-    private fun calculataRemainingCredits(){
+    fun calculataRemainingCredits(){
         val remaining = tvShowAmount.text.toString().toDouble() - totalEx.text.toString().toDouble()
         RemCredit.text = remaining.toString()
     }
 
-    private fun calculateTotalExpense() {
+    fun calculateTotalExpense() {
         val amount1Value = if (amount1.text.toString().isEmpty()) 0.0 else amount1.text.toString().toDouble()
         val amount2Value = if (amount2.text.toString().isEmpty()) 0.0 else amount2.text.toString().toDouble()
         val amount3Value = if (amount3.text.toString().isEmpty()) 0.0 else amount3.text.toString().toDouble()
