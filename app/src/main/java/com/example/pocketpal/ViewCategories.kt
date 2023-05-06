@@ -14,19 +14,19 @@ import com.google.firebase.database.FirebaseDatabase
 class ViewCategories : AppCompatActivity() {
 
     //private lateinit var tvId: TextView
-    private lateinit var tvMonth: TextView
-    private lateinit var tvSalary: TextView
-    private lateinit var tvPercentage1: TextView
-    private lateinit var tvPercentage2: TextView
-    private lateinit var tvPercentage3: TextView
-    private lateinit var tvPercentage4: TextView
-    private lateinit var tvPercentage5: TextView
+    lateinit var tvMonth: TextView
+    lateinit var tvSalary: TextView
+    lateinit var tvPercentage1: TextView
+    lateinit var tvPercentage2: TextView
+    lateinit var tvPercentage3: TextView
+    lateinit var tvPercentage4: TextView
+    lateinit var tvPercentage5: TextView
 
-    private lateinit var tvCal1: TextView
-    private lateinit var tvCal2: TextView
-    private lateinit var tvCal3: TextView
-    private lateinit var tvCal4: TextView
-    private lateinit var tvCal5: TextView
+    lateinit var tvCal1: TextView
+    lateinit var tvCal2: TextView
+    lateinit var tvCal3: TextView
+    lateinit var tvCal4: TextView
+    lateinit var tvCal5: TextView
 
     private lateinit var tvTotal: TextView
     private lateinit var tvRemaining: TextView
@@ -105,7 +105,7 @@ class ViewCategories : AppCompatActivity() {
         btnAddNewMonthViewCategory = findViewById(R.id.btnAddNewMonthViewCategory)
     }
 
-    private fun setValuesToViews() {
+    internal fun setValuesToViews() {
 
         //tvId.text = intent.getStringExtra("budgetId")
         tvMonth.text = intent.getStringExtra("month")

@@ -12,14 +12,14 @@ import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var edtMonthMain: EditText
-    private lateinit var edtSalaryMain: EditText
-    private lateinit var edtPercentage1: EditText
-    private lateinit var edtPercentage2: EditText
-    private lateinit var edtPercentage3: EditText
-    private lateinit var edtPercentage4: EditText
-    private lateinit var edtPercentage5: EditText
-    private lateinit var btnSaveMain: Button
+    lateinit var edtMonthMain: EditText
+    lateinit var edtSalaryMain: EditText
+    lateinit var edtPercentage1: EditText
+    lateinit var edtPercentage2: EditText
+    lateinit var edtPercentage3: EditText
+    lateinit var edtPercentage4: EditText
+    lateinit var edtPercentage5: EditText
+    lateinit var btnSaveMain: Button
     private lateinit var btnViewBudget: Button
 
     private lateinit var dbRef: DatabaseReference

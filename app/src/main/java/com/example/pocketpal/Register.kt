@@ -22,6 +22,7 @@ class Register : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
     private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var notificationManager: NotificationManager
+    private lateinit var btnLoginReg: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,12 +35,19 @@ class Register : AppCompatActivity() {
         // Create notification channel
         createNotificationChannel()
 
+        btnLoginReg = findViewById(R.id.btnLognReg)
+
+        btnLoginReg.setOnClickListener{
+            val intent = Intent (this, Login:: class.java)
+            startActivity(intent)
+        }
+
         binding.btnRegisterButton.setOnClickListener{
-            val name = binding.edtNameRegister.text.toString()
+            //val name = binding.edtNameRegister.text.toString()
             val email = binding.edtEmailRegister.text.toString()
             val pass = binding.edtPasswordRegister.text.toString()
 
-            if (name.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty()) {
+            if (email.isNotEmpty() && pass.isNotEmpty()) {
                 firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener{
                     if (it.isSuccessful) {
                         // Send registration notification
