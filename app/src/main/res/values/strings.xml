@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">POCKET PAL</string>
+    <string name="tvFinance">MY FINANCIAL GOALS</string>
+    <string name="tvGoalsListTip">Click on the Goal to view Details</string>
+    <string name="BtnAdd">Add Goal</string>
+    <string name="btnBackToMain"> Go Back Home</string>
+    <string name="btnFinancialTips">Financial Tips</string>
+    <string name="goal_Title">Buy a Smartphone</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="delete_button">delete_button</string>
+    <string name="view_button">view_button</string>
+    <string name="tvGoal">Goal</string>
+<!--Add -->
+
+    <string name="AddGoal">Enter Goal</string>
+    <string name="tvAmount">Amount:</string>
+    <string name="AddAmount">Add Amount</string>
+    <string name="AddDuration">Duration</string>
+    <string name="tvDuration">Duration (Months)</string>
+    <string name="tvAddGoal">Goal</string>
+    <string name="tvAddDate">Add Date</string>
+    <string name="AddDate">Enter date </string>
+    <string name="btnSetGoal">Set Goal</string>
+    <string name="btnViewGoalList">View Goals</string>
+    <string name="btnCancel">Cancel</string>
+
+
+    <string name="tvEditGoal">Edit Goal</string>
+    <string name="edtGoal">Edit Goal</string>
+    <string name="edtAmount">Edit Amount</string>
+    <string name="edtDuration">Edit Duration (Months)</string>
+    <string name="tvEditDate">Edit Date</string>
+    <string name="edtDate">Edit Date</string>
+    <string name="BtnSaveChanges">Save</string>
+
+    <string name="CalculateTip">Press Calculate to See How much to save per Month</string>
+    <string name="TvGoalView">Buy a Tab</string>
+    <string name="tvGoalAmount">Goal Amount Rs 200,000</string>
+    <string name="tvMonth">Duration 6 Months</string>
+    <string name="tvStartDate">Start Date 2023 03 16</string>
+    <string name="tvCalculation">Savings Need per Month  34,000</string>
+    <string name="BtnCalculate">Calculate</string>
+    <string name="btnEditGoal">Edit Goal</string>
+    <string name="btnBackList">Back To List</string>
+
+    <string name="tvFinancialTipsDc">Useful Financial Websites To Manage And Invest Money</string>
+    <string name="tvWeb0">Lanka Business Online
+        https://www.lankabusinessonline.com/</string>
+    <string name="tvWeb1">Colombo Stock Exchange
+        https://www.cse.lk/\"</string>
+    <string name="tvWeb2">Central Bank of Sri Lanka
+        https://www.cbsl.gov.lk/</string>
+    <string name="tvWeb03">Ministry of Finance
+        http://www.treasury.gov.lk/</string>
+    <string name="tvWeb04">Guide To Finance Literacy
+        https://bit.ly/3YW5DAK</string>
+    <string name="tvWeb5">Discover Discounts- https://play.google.com/store/apps/details?id=com.sadaharitha.ithiri</string>
+    <string name="tvWeb6">How to Set Financial Goals
+        https://bit.ly/3FqGes5t</string>
+    <string name="BtnBackFinanceTips">Go Back</string>
+
+
+</resources>
