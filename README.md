@@ -22,20 +22,10 @@ of mental health which is also essential during a crisis.
 The main purpose of this section is to provide features for the user to plan the budget for a month at the beginning of the relevant month. The user can add the month, the salary for the month, and the expected expenditure amounts for the respective categories as percentages. Then it will be saved as a new budget plan and the system will automatically calculate and display the expenditure amounts for the respective categories. Then the system will display the total expected expenditure amount and the remaining amount from the salary. If wants, the user can update the percentage amount of expenses of any category and then the system will calculate the budget accordingly and display it automatically. When it comes to the end of the month, the user can delete the budget record if needed and add a new budget record. 
 
 ## IT21261732 – Bill Payment 
-This section helps to keep track of all bill details and reminds the due dates of bills monthly wise. Initially, 
-users need to add the bill details including amount, category, and due date. If the user needs reminders 
-for due dates, they can set reminders. The system calculates the total amount of the bills that need to pay 
-and displays it to the users. After settling bill payment user can add that bill as paid. Then the system 
-calculates the total amount of paid bills. Users can update the bill details and delete the bills when they 
-are not needed.
+This section helps to keep track of all bill details and the due dates of bills category wise. Initially, users need to add the bill details including amount, category, and due date and month. Users can select the category from select category option. The system calculates the total amount of the upcoming bills that customer need to pay and displays it to the users. User can find the bill details with category of the bill that they selected. When view the bill details, if they need to update amount of the bill, they can update the amount as they wished. After settle, the bill payment customers can add the bill as paid bill. Customers can view the paid bills as well. Then they can get the summary of the paid bills total amount as well as upcoming bill total amount. If customer no need  the upcoming bill, they can delete the bill details from the upcoming bill and as same as customer no need any paid bill details they can delete paid bill details from the paid bills.
  
 ## IT21258312 – Credit Monitoring 
-This section manages and monitors the credit limits and expenses. Initially, the total credit amount for the 
-month should be inserted and whenever the user spends on a certain thing that amount and the details 
-should be inserted. Then the system calculates and shows the remaining credit amount on the dashboard 
-and keeps records of the respective expense. Also, the system compares the expense rate with previous 
-months and if it detects an anomalous rate of spending, an alert is shown. The records and the amounts 
-could be updated and deleted according to the necessity of the user.
+This section manages, monitors, and keeps track of the expenses with the credit limits monthly. Initially, the user can insert the month and the total credit amount for the respective month using the ‘Add Expense’ button in the main credit page. The added months can be viewed using the ‘My Expenses’ button. Once the user clicks on the respective month, the expenses can be viewed. If an expense is added initially, it will be displayed here with the amount. According to the necessity, the user can update the monthly details by adding more expenses with the purpose. In addition, the app calculates and displays the total expenses for the respective month and the remaining credit amount per month. These values are updated as the purposes and new expenses are added. The monthly records can be deleted according to the necessity of the user.
  
 ## IT21259852 – Financial Goal Setting 
 Financial goal setting in this application allows users to set a financial goal, such as buying a new car or 
