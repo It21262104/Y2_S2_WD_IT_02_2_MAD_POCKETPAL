@@ -11,10 +11,7 @@ A user must register for the application to get the services. News related to th
 will be displayed and will be updated daily. So that the users can stay updated on the current situation. 
 There are 4 main modules in the application which are budgeting, bill payment, credit monitoring, and 
 financial goal setting. The users can plan their expenditures, get notified of pending payments, calculate 
-the net income of the month, and be motivated for saving money by referring to these modules. The users 
-can provide feedback for the service according to their satisfaction. Apart from that, whenever a customer 
-logs in to the system, a mental health tip will be displayed on the dashboard daily to increase awareness 
-of mental health which is also essential during a crisis.
+the net income of the month, and be motivated for saving money by referring to these modules.
 
 # Individual Contribution 
 
