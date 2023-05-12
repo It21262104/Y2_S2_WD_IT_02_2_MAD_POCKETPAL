@@ -41,7 +41,7 @@ class UserProfile : AppCompatActivity() {
         }
 
         btnNewMonth.setOnClickListener{
-            val intent = Intent (this, MainActivity:: class.java)
+            val intent = Intent (this, BudgetMain:: class.java)
             startActivity(intent)
         }
     }

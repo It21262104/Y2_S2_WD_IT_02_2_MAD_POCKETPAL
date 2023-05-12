@@ -8,14 +8,10 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
-import com.example.pocketpal.databinding.ActivityMainBinding
 import com.example.pocketpal.databinding.ActivityRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.messaging.FirebaseMessaging
-import com.google.firebase.messaging.RemoteMessage
 
 class Register : AppCompatActivity() {
 
@@ -74,7 +70,7 @@ class Register : AppCompatActivity() {
     }
 
     private fun sendNotification() {
-        val notificationIntent = Intent(this, MainActivity::class.java)
+        val notificationIntent = Intent(this, BudgetMain::class.java)
         notificationIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
         val contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0)

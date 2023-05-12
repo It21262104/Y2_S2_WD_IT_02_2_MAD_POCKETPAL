@@ -10,7 +10,7 @@ import com.example.pocketpal.models.BudgetModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
-class MainActivity : AppCompatActivity() {
+class BudgetMain : AppCompatActivity() {
 
     lateinit var edtMonthMain: EditText
     lateinit var edtSalaryMain: EditText
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.budget_main)
 
         edtMonthMain = findViewById(R.id.edtMonthMain)
         edtSalaryMain = findViewById(R.id.edtSalaryMain)
