@@ -24,7 +24,7 @@
             android:name=".add_new_expense"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".credit_main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

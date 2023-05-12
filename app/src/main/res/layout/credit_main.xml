@@ -8,7 +8,7 @@
     android:background="@color/background_text"
     android:orientation="vertical"
     app:layout_insetEdge="none"
-    tools:context=".MainActivity">
+    tools:context=".credit_main">
 
     <TextView
         android:id="@+id/tvCreditTracker"
