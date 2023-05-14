@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".GoalsEditPage">
+
+    <TextView
+        android:id="@+id/tvFinance"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:text="@string/tvFinance"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textColorLink="#070000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/tvEditGoal"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:autofillHints="Edit Goal"
+        android:hint="@string/edtGoal"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/tvAmount"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:hint="@string/edtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/tvDuration"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:autofillHints=""
+        android:hint="@string/edtDuration"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text= "@string/tvEditDate"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edtDate"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textColorHighlight="@color/gray"
+        android:textColorHint="@color/gray"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_save"
+        android:text="@string/BtnSaveChanges"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize = "20sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_view2"
+        android:text="@string/btnViewGoalList"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize = "20sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/ic_baseline_cancel_24"
+        android:text="@string/btnCancel"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize = "20sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+
+</LinearLayout>

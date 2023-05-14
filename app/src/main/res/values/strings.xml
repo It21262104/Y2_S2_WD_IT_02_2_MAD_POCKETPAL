@@ -41,15 +41,228 @@
     <string name="edtUpdateDate">Edit Date</string>
     <string name="edtUpdateAmount">Edit Amount</string>
     <string name="btnUpdateExpense">Update</string>
-    <string name="tvNews1">News Update 1</string>
-    <string name="tvNews2">News Update 2</string>
-    <string name="tvNews3">News Update 3</string>
-    <string name="btnMoreNews">See More Updates</string>
-    <string name="btnMyBudget">MY Budget</string>
-    <string name="btnMyCredits">My Credits</string>
-    <string name="btnMyBills">My Bills</string>
-    <string name="btnMyGoals">My Goals</string>
     <string name="tvMentalHealthTip">   <p> </p>
         <p>Daily Mental Health Tip</p></string>
     <string name="btnAddData">Add Expense</string>
+
+
+
+
+        <string name="txtTitle">My Bills</string>
+        <string name="tvTitle">My Bills</string>
+        <string name="tvMonth">Month</string>
+
+        <string name="tvUpcoming">Upcoming bills Amount</string>
+        <string name="edtUpcoming">Rs.xxxx.xx</string>
+        <string name="tvPaid">Paid Bills Amount</string>
+        <string name="edtPaid">Rs,xxxx.xx</string>
+        <string name="btnAddb">Add Bill</string>
+        <string name="btnUpcoming">View Upcoming Bills</string>
+        <string name="btnPaid">View Paid Bills</string>
+        <string name="txtAdd">Add Bill</string>
+        <string name="txtAmount">Amount Due</string>
+
+        <string name="tvCategory">Category</string>
+        <string name="edtCategory">Select Category</string>
+        <string name="txtDue">Due Date</string>
+
+        <string name="btn_Add">Save Bill</string>
+        <string name="textUpcoming">Upcoming Bills</string>
+        <string name="txtMonth">May</string>
+        <string name="txtTotal">Rs.xxxx.xx</string>
+        <string name="edtbill1">Electri City Bill</string>
+        <string name="edttotal1">Rs. xxx.xx</string>
+        <string name="edtBill2">Water Bill</string>
+        <string name="edtTotal2">Rs.xxxx.xx</string>
+        <string name="edtBill3">Mobile Bill</string>
+        <string name="edtTotal3">Rs.xxxx.xx</string>
+        <string name="btnDelete">Delete</string>
+        <string name="btnEdit">Edit</string>
+        <string name="btnDone">Paid</string>
+        <string name="txtbill1">Electricity Bill</string>
+        <string name="txtAmount1">Rs.xxxx.xx</string>
+        <string name="txtBill2">Water Bill</string>
+        <string name="txtAmount2">Rs.xxxx.xx</string>
+        <string name="txtPaid">Paid Bills</string>
+        <string name="txMonth">May</string>
+        <string name="txAmount">Rs.xxxx.xx</string>
+        <string name="btDelete">Delete</string>
+        <string name="txPaidbill1">Mobile Phone Bill</string>
+        <string name="edtPaidbill">Rs.xxxx.xx</string>
+        <string name="txPaidBill2">Gas Bill</string>
+        <string name="tvUpdate">Update Bills</string>
+        <string name="uAmount">Amount Due</string>
+        <string name="edtTxtAmount">Rs.xxxx.xx</string>
+        <string name="uCategory">Category</string>
+        <string name="edtTxtCategory">Water Bill</string>
+        <string name="uDueDate">Due Date</string>
+        <string name="edtTxtDate">2023-03-08</string>
+        <string name="btnUupdate">Update Bill</string>
+        <string name="tvMyProfile">My Profile</string>
+        <string name="txtMname">Name : </string>
+        <string name="edtMname">Amal Perera</string>
+        <string name="edtMemail">amal@gmail.com</string>
+        <string name="txtMemail">Email : </string>
+        <string name="btnMview">View Dashbord</string>
+        <string name="btnMupadte">Update Profile</string>
+        <string name="tvUpdateprofile">Update Profile</string>
+        <string name="btnUpupdate">Update</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="btnMyBudget" />
+        <string name="btnMyBills" />
+        <string name="btnMyGoals" />
+        <string name="tvNews2" />
+        <string name="tvNews3" />
+        <string name="tvNews1" />
+        <string name="btnMoreNews" />
+        <string name="btnMyCredits" />
+
+
+
+    <string name="tvBudget">MY BUDGET</string>
+    <string name="tvMonthB">Month</string>
+    <string name="edtMonthB">Enter Month</string>
+    <string name="tvSalary">Salary of the Month</string>
+    <string name="edtSalary">Enter Salary</string>
+    <string name="tvRs">Rs.</string>
+    <string name="btnNewCategory">Add new category</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnNext">Next</string>
+    <string name="tvCategory1">Bill payments</string>
+    <string name="btnView">View Budget</string>
+    <!-- <string name="tvCategory">Category</string>-->
+    <!-- <string name="edtCategory">Enter Category</string>-->
+    <string name="tvPercentage">Percentage</string>
+    <string name="edtPercentage">Enter Expected Percentage</string>
+    <!-- <string name="btnAdd">Add</string>-->
+    <string name="btnCancel2">Cancel</string>
+    <string name="tvNewCategory">ADD NEW CATEGORY</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="btnNewMonth">Add New Month</string>
+    <string name="tvBudget3">MY BUDGET</string>
+    <string name="btnAdd2">Add</string>
+    <string name="tvCat1">Food</string>
+    <string name="tvPercent1">20%</string>
+    <string name="tvCat3">Bill payments</string>
+    <string name="tvPercent3">25%</string>
+    <string name="tvCat4">Savings</string>
+    <string name="tvPercent4">10%</string>
+    <string name="btnUpdate1">Update</string>
+    <string name="btnDelete1">Delete</string>
+    <string name="btnUpdate2">Update</string>
+    <string name="btnDelete2">Delete</string>
+    <string name="btnUpdate3">Update</string>
+    <string name="btnDelete3">Delete</string>
+    <string name="btnUpdate4">Update</string>
+    <string name="btnDelete4">Delete</string>
+    <string name="tvBudget4">MY BUDGET</string>
+    <string name="tvMonth2">January</string>
+    <string name="tvSalary2">Salary : 75,000/=</string>
+    <string name="tvCat5">Food</string>
+    <string name="tvPercent5">Rs. 15,000/=</string>
+    <string name="tvCat6">Bill Payments</string>
+    <string name="tvPercent6">Rs. 18,750/=</string>
+    <string name="tvCat7">Savings</string>
+    <string name="tvPercent7">Rs. 7,500/=</string>
+    <string name="btnAddCategory">Add New Category</string>
+    <string name="btnAddMonth">Add New Month</string>
+    <string name="tvBudget5">MY BUDGET</string>
+    <string name="tvUpdateCategory">Category</string>
+    <string name="edtUpdateCategory">Food</string>
+    <string name="tvUpdatePercentage">Percentage</string>
+    <string name="edtUpdatePercentage">20%</string>
+    <string name="btnUpdate">Update</string>
+   <!-- <string name="btnClear">Clear</string>-->
+    <string name="tvHome">HOME</string>
+    <string name="tvIntro"><![CDATA[Control Your Spend & Start Saving]]></string>
+    <string name="btnRegister">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="tvLogin2">LOGIN</string>
+    <string name="tvEmail">Email Address</string>
+    <string name="tvPassword">Password</string>
+    <string name="edtEmail">Enter Email Address</string>
+    <string name="edtPassword">Enter Password</string>
+    <string name="btnLogin2">Login</string>
+    <string name="tvText">Do not have an account ?</string>
+    <string name="btnRegister2">Register</string>
+    <string name="tvRegister">REGISTER</string>
+    <string name="tvPhonr">Contace No</string>
+    <string name="tvFeedback">FEEDBACK</string>
+    <string name="tvName">Name</string>
+    <string name="edtName">Enter Name</string>
+    <string name="tvEmail2">Email Address</string>
+    <string name="edtEmail2">Enter Email</string>
+    <string name="tvFeedbackMsg">Feedback</string>
+    <string name="edtFeedbackMsg">Message</string>
+    <string name="tvSuggestions">Suggestions</string>
+    <string name="edtSuggestions">Any Suggestions</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="tvBudget2">MY BUDGET</string>
+    <string name="btnRegister3">Register</string>
+    <string name="tvMentalHealthTIP"> Daily Mental Health Tip </string>
+    <string name="edtName2">Enter Name</string>
+    <string name="tvName2">Name</string>
+
+
+
+    <string name="tvFinance">MY FINANCIAL GOALS</string>
+    <string name="tvGoalsListTip">Click on the Goal to view Details</string>
+    <string name="BtnAdd">Add Goal</string>
+    <string name="btnBackToMain"> Go Back Home</string>
+    <string name="btnFinancialTips">Financial Tips</string>
+    <string name="goal_Title">Buy a Smartphone</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="delete_button">delete_button</string>
+    <string name="view_button">view_button</string>
+    <string name="tvGoal">Goal</string>
+    <!--Add -->
+
+    <string name="AddGoal">Enter Goal</string>
+    <string name="tvAmountg">Amount:</string>
+    <string name="AddAmount">Add Amount</string>
+    <string name="AddDuration">Duration</string>
+    <string name="tvDuration">Duration</string>
+    <string name="tvAddGoal">Goal</string>
+    <string name="tvAddDate">Add Date</string>
+    <string name="AddDate">Enter date </string>
+    <string name="btnSetGoal">Set Goal</string>
+    <string name="btnViewGoalList">View Goals</string>
+    <string name="btnCancelg">Cancel</string>
+
+
+    <string name="tvEditGoal">Edit Goal</string>
+    <string name="edtGoal">Edit Goal</string>
+    <string name="edtAmountg">Edit Amount</string>
+    <string name="edtDuration">Edit Duration</string>
+    <string name="tvEditDate">Edit Date</string>
+   <string name="edtDateg">Edit Date</string>
+    <string name="BtnSaveChanges">Save Change</string>
+
+    <string name="CalculateTip">Press Calculate to See How much to save per Month</string>
+    <string name="TvGoalView">Buy a Tab</string>
+    <string name="tvGoalAmount">Goal Amount Rs 200,000</string>
+    <string name="tvMonthg">Duration 6 Months</string>
+    <string name="tvStartDate">Start Date 2023 03 16</string>
+    <string name="tvCalculation">Savings Need per Month  34,000</string>
+    <string name="BtnCalculate">Calculate</string>
+    <string name="btnEditGoal">Edit Goal</string>
+    <string name="btnBackList">Back To List</string>
+
+    <string name="tvFinancialTipsDc">Useful Financial Websites To Manage And Invest Money</string>
+    <string name="tvWeb0">Lanka Business Online
+        https://www.lankabusinessonline.com/</string>
+    <string name="tvWeb1">Colombo Stock Exchange
+        https://www.cse.lk/\"</string>
+    <string name="tvWeb2">Central Bank of Sri Lanka
+        https://www.cbsl.gov.lk/</string>
+    <string name="tvWeb03">Ministry of Finance
+        http://www.treasury.gov.lk/</string>
+    <string name="tvWeb04">Guide To Finance Literacy
+        https://bit.ly/3YW5DAK</string>
+    <string name="tvWeb5">Discover Discounts- https://play.google.com/store/apps/details?id=com.sadaharitha.ithiri</string>
+    <string name="tvWeb6">How to Set Financial Goals
+        https://bit.ly/3FqGes5t</string>
+    <string name="BtnBackFinanceTips">Go Back</string>
+
 </resources>

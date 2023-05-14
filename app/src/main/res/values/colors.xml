@@ -16,4 +16,7 @@
     <color name="mentalHealthc3">#88593F</color>
     <color name="mentalHealthc4">#A2806D</color>
     <color name="caroselColour">#356B0F</color>
+    <color name="gray">#808080</color>
+    <color name = "link_blue">#0000FF</color>
+    <color name="color_link">#1434A4</color>
 </resources>

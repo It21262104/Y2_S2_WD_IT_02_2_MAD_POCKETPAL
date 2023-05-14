@@ -8,30 +8,148 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.POCKETPAL"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".view_per_month"
+            android:name=".UpdateDialogActivity"
             android:exported="false" />
         <activity
-            android:name=".view_expenses"
+            android:name=".FetchMonth"
             android:exported="false" />
         <activity
-            android:name=".my_expenses"
-            android:exported="false" />
+            android:name=".Register"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
-            android:name=".add_new_expense"
-            android:exported="false" />
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name=".ViewCategories"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BudgetMain"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPaidBills"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBill"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateMyProfile"
+            android:exported="false" />
+
+        <activity
+            android:name=".UpdateBills"
+            android:exported="false" />
+        <activity
+            android:name=".PaidBills"
+            android:exported="false" />
+        <activity
+            android:name=".UpcomingBills"
+            android:exported="false" />
+        <activity
+            android:name=".AddBills"
+            android:exported="false" />
+        <activity
+            android:name=".credit_main"
+            android:exported="false"/>
+        <activity
+            android:name=".view_per_month"
+            android:exported="false" />
+        <activity
+            android:name=".view_expenses"
+            android:exported="false" />
+
+        <activity
+            android:name=".add_new_expense"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivityGoal"
+            android:exported="false">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GoalsAddPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FinancialTipsPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GoalsDetailPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GoalsEditPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+        <service android:name=".MyFirebaseMessagingService"
+                  android:exported="false">
+            <intent-filter>
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+               <!-- <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

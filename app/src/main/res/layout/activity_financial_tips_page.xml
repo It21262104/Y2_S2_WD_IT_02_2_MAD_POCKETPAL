@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".FinancialTipsPage">
+
+    <TextView
+        android:id="@+id/tvFinance"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:text="@string/tvFinance"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textColorLink="#070000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/tvFinancialTipsDc"
+        android:textColor="@color/background_main" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            app:srcCompat="@drawable/image4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvFinanceWeb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="5dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="@string/tvWeb0"
+                android:textColor="@color/background_main"
+                android:textColorLink="@color/color_link"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFinanceWeb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="5dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="@string/tvWeb2"
+                android:textColor="@color/background_main"
+                android:textColorLink="@color/color_link"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFinanceWeb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="5dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="@string/tvWeb1"
+                android:textColor="@color/background_main"
+                android:textColorLink="@color/color_link"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFinanceWeb4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="5dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="@string/tvWeb03"
+                android:textColor="@color/background_main"
+                android:textColorLink="@color/color_link"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            app:srcCompat="@drawable/image3" />
+
+        <TextView
+            android:id="@+id/tvFinanceWeb6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="5dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/tvWeb04"
+            android:textColor="@color/background_main"
+            android:textColorLink="@color/color_link"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFinanceWeb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="5dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/tvWeb6"
+            android:textColor="@color/background_main"
+            android:textColorLink="@color/color_link"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_back"
+        android:text="@string/BtnBackFinanceTips"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+
+
+</LinearLayout>

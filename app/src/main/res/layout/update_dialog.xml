@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background_text"
+    tools:context=".UpdateDialogActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tvMain_margin_left"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/tvMain_margin_right"
+        android:text="UPDATE DATA"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Month"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtMonthUpdate"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:hint="Month"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Salary"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtSalaryUpdate"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="Salary"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Bill payment"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtpercentage1Update"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="X %"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Installment"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtPercentage2Update"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="X %"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Rental"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtPercentage3Update"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="X %"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Savings"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtpercentage4Update"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="X %"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="Grocery"
+            android:textColor="@color/background_main"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtPercentage5Update"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_edit"
+            android:ems="10"
+            android:hint="X %"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/background_main"
+            android:textColorHint="@color/background_main" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tvMain_margin_left"
+        android:layout_marginTop="@dimen/tvMain_margin_top"
+        android:layout_marginRight="@dimen/tvMain_margin_right"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/icon_update"
+        android:text="Update"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/button_main_textSize"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/corner_radius" />
+
+</LinearLayout>

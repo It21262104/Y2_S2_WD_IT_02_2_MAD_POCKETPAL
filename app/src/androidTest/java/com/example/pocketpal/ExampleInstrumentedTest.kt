@@ -1,18 +1,16 @@
 package com.example.pocketpal
 
-import androidx.test.espresso.Espresso
+import android.view.View
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions
+import androidx.test.espresso.ViewAssertion
 import androidx.test.espresso.action.ViewActions.click
-import androidx.test.espresso.assertion.ViewAssertions
 import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.rule.ActivityTestRule
+import org.hamcrest.Matcher
 
 
 import org.junit.Test
@@ -39,7 +37,7 @@ class ExampleInstrumentedTest {
 
   //instrumental testing
     @get:Rule
-    val activityRule = ActivityScenarioRule(MainActivity::class.java)
+    val activityRule = ActivityScenarioRule(credit_main::class.java)
 
     @Test
     fun testAddNewExpenseButton(){
@@ -52,5 +50,7 @@ class ExampleInstrumentedTest {
         onView(withId(R.id.btnMyExpenses)).perform(click())
         onView(withId(R.id.btnMyExpenses)).check(matches(isDisplayed()))
     }
+
+
 
 }
