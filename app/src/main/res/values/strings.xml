@@ -222,9 +222,9 @@
     <string name="tvAmountg">Amount:</string>
     <string name="AddAmount">Add Amount</string>
     <string name="AddDuration">Duration</string>
-    <string name="tvDuration">Duration</string>
+    <string name="tvDuration">Duration(Months)</string>
     <string name="tvAddGoal">Goal</string>
-    <string name="tvAddDate">Add Date</string>
+    <string name="tvAddDate">Add Date(dd/mm/yyyy)</string>
     <string name="AddDate">Enter date </string>
     <string name="btnSetGoal">Set Goal</string>
     <string name="btnViewGoalList">View Goals</string>
@@ -234,8 +234,8 @@
     <string name="tvEditGoal">Edit Goal</string>
     <string name="edtGoal">Edit Goal</string>
     <string name="edtAmountg">Edit Amount</string>
-    <string name="edtDuration">Edit Duration</string>
-    <string name="tvEditDate">Edit Date</string>
+    <string name="edtDuration">Edit Duration(Months)</string>
+    <string name="tvEditDate">Edit Date(dd/mm/yyyy)</string>
    <string name="edtDateg">Edit Date</string>
     <string name="BtnSaveChanges">Save Change</string>
 

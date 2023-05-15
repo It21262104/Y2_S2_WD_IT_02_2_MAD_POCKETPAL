@@ -50,6 +50,7 @@
         android:hint="@string/edtMonth"
         android:inputType="textPersonName"
         android:textAlignment="center"
+        android:textColor="@color/background_main"
         android:textColorHint="@color/background_main"
         android:textStyle="bold|italic" />
 
@@ -78,6 +79,7 @@
         android:hint="@string/edtExAmount"
         android:inputType="numberDecimal"
         android:textAlignment="center"
+        android:textColor="@color/background_main"
         android:textColorHint="@color/background_main"
         android:textStyle="bold|italic" />
 

@@ -45,15 +45,16 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/AddGoal"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="20sp"
-        android:textStyle="italic"
-        android:autofillHints=""
-        android:hint="@string/AddGoal"/>
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView6"
@@ -81,6 +82,7 @@
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
         android:textStyle="italic" />
 
@@ -104,12 +106,13 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:autofillHints="@string/AddDuration"
+        android:ems="10"
         android:hint="@string/AddDuration"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
         android:textStyle="italic" />
 
@@ -140,7 +143,7 @@
         android:textAlignment="center"
         android:textColor="@color/background_main"
         android:textColorHighlight="@color/gray"
-        android:textColorHint="@color/gray"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
         android:textStyle="italic" />
 

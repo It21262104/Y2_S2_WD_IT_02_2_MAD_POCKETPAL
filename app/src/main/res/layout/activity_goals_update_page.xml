@@ -45,15 +45,16 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
+        android:autofillHints="Edit Goal"
         android:ems="10"
+        android:hint="@string/edtGoal"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
-        android:textStyle="italic"
-        android:autofillHints="Edit Goal"
-        android:hint="@string/edtGoal"/>
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView6"
@@ -70,7 +71,6 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:hint="@string/edtAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -78,9 +78,11 @@
         android:layout_marginBottom="16dp"
         android:autofillHints=""
         android:ems="10"
+        android:hint="@string/edtAmount"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
         android:textStyle="italic" />
 
@@ -104,14 +106,15 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/edtDuration"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
-        android:textStyle="italic"
-        android:autofillHints=""
-        android:hint="@string/edtDuration"/>
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView4"
@@ -139,7 +142,7 @@
         android:textAlignment="center"
         android:textColor="@color/background_main"
         android:textColorHighlight="@color/gray"
-        android:textColorHint="@color/gray"
+        android:textColorHint="@color/background_main"
         android:textSize="22sp"
         android:textStyle="italic" />
 
