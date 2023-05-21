@@ -62,4 +62,12 @@ class GoalsDetailPage : AppCompatActivity(){
 
     }
 
+    fun calculateSavingsNeededPerMonth(amount: Int, duration: Int?): Double {
+        val savingsPerMonth = amount.toDouble() / (duration ?: 1)
+        return savingsPerMonth.roundToInt().toDouble()
+    }
+
 }
+
+
+

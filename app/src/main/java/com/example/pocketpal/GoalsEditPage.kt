@@ -35,8 +35,8 @@ class GoalsEditPage : AppCompatActivity(){
         val button12 = findViewById<Button>(R.id.button12)
 
         EditGoal.setText(title)
-        editTextTextPersonName4.setText(duration)
-        editTextTextPersonName.setText(amount)
+        editTextTextPersonName4.setText(amount)
+        editTextTextPersonName.setText(duration)
         editTextDate2.setText(targetDate)
 
         button10.setOnClickListener {
@@ -46,9 +46,33 @@ class GoalsEditPage : AppCompatActivity(){
             }
 
             val titleX = EditGoal.text.toString()
-            val amountX = editTextTextPersonName4.text.toString().toDouble()
-            val durationX = editTextTextPersonName.text.toString().toDouble().toInt()
             val targetDateX = editTextDate2.text.toString()
+
+
+            val amountX: Double
+            try {
+                amountX = editTextTextPersonName4.text.toString().toDouble()
+            } catch (e: NumberFormatException) {
+                editTextTextPersonName.error = "Invalid amount"
+                return@setOnClickListener
+            }
+
+
+            val durationX: Int
+            try {
+                durationX = editTextTextPersonName.text.toString().toInt()
+            } catch (e: NumberFormatException) {
+                editTextTextPersonName4.error = "Invalid duration"
+                return@setOnClickListener
+            }
+
+
+            val pattern = Regex("^(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[012])/([0-9]{4})\$")
+            val result  = pattern.containsMatchIn(targetDateX)
+            if (!result) {
+                editTextDate2.error = "Invalid date (dd/mm/yyyy)"
+                return@setOnClickListener
+            }
 
 
             val goal = Goal(titleX, amountX, durationX, targetDateX)

@@ -70,20 +70,19 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
+        android:hint="@string/edtAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#000000"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/edtAmount"
         android:textAlignment="center"
         android:textColor="@color/background_main"
         android:textSize="22sp"
-        android:textStyle="italic"
-        android:autofillHints="" />
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView8"
@@ -121,7 +120,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/tvEditDate"
+        android:text= "@string/tvEditDate"
         android:textAlignment="center"
         android:textColor="@color/background_main"
         android:textSize="24sp"
@@ -133,16 +132,16 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/edtDate"
         android:inputType="date"
         android:textAlignment="center"
         android:textColor="@color/background_main"
-        android:textColorHighlight="@color/background_main"
-        android:textColorHint="@color/background_main"
+        android:textColorHighlight="@color/gray"
+        android:textColorHint="@color/gray"
         android:textSize="22sp"
-        android:textStyle="italic"
-        android:autofillHints="" />
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/button10"

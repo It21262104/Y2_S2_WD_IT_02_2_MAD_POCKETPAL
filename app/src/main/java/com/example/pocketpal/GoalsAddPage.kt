@@ -1,10 +1,9 @@
-package com.example.pocketpal;
+package com.example.pocketpal
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.ktx.database
@@ -22,8 +21,8 @@ data class Goal @JvmOverloads constructor(
 class GoalsAddPage : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_goals_add_page);
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_goals_add_page)
 
         val database = Firebase.database
         val myRef = database.getReference("Goals")
@@ -31,14 +30,14 @@ class GoalsAddPage : AppCompatActivity() {
 
 
 
-        val tvFinance: TextView = findViewById(R.id.tvFinance)
-        val tvGoal: TextView = findViewById(R.id.tvGoal)
+      //  val tvFinance: TextView = findViewById(R.id.tvFinance)
+     //   val tvGoal: TextView = findViewById(R.id.tvGoal)
         val editTextTitle: EditText = findViewById(R.id.editTextTitle)
-        val textView6: TextView = findViewById(R.id.textView6)
+     //   val textView6: TextView = findViewById(R.id.textView6)
         val editTextAmount: EditText = findViewById(R.id.editTextAmount)
-        val textView8: TextView = findViewById(R.id.textView8)
+       // val textView8: TextView = findViewById(R.id.textView8)
         val editTextDuration: EditText = findViewById(R.id.editTextDuration)
-        val textView4: TextView = findViewById(R.id.textView4)
+       // val textView4: TextView = findViewById(R.id.textView4)
         val editTextTargetDate: EditText = findViewById(R.id.editTextTargetDate)
         val button10: Button = findViewById(R.id.button10)
         val button: Button = findViewById(R.id.button)
@@ -88,6 +87,8 @@ class GoalsAddPage : AppCompatActivity() {
             editTextAmount.setText("")
             editTextDuration.setText("")
             editTextTargetDate.setText("")
+            Toast.makeText(this, "Successfully Added the Goal", Toast.LENGTH_SHORT).show()
+            finish()
         }
 
         button12.setOnClickListener {

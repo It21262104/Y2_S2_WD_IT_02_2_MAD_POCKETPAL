@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">POCKET PAL</string>
     <string name="tvFinance">MY FINANCIAL GOALS</string>
-    <string name="tvGoalsListTip">Click on the Goal to view Details</string>
+    <string name="tvGoalsListTip">Click For View , Mark For Completetion</string>
     <string name="BtnAdd">Add Goal</string>
     <string name="btnBackToMain"> Go Back Home</string>
     <string name="btnFinancialTips">Financial Tips</string>
@@ -18,7 +18,7 @@
     <string name="AddDuration">Duration</string>
     <string name="tvDuration">Duration (Months)</string>
     <string name="tvAddGoal">Goal</string>
-    <string name="tvAddDate">Add Date</string>
+    <string name="tvAddDate">Start Date(dd/mm/yyyy)</string>
     <string name="AddDate">Enter date </string>
     <string name="btnSetGoal">Set Goal</string>
     <string name="btnViewGoalList">View Goals</string>
@@ -29,7 +29,7 @@
     <string name="edtGoal">Edit Goal</string>
     <string name="edtAmount">Edit Amount</string>
     <string name="edtDuration">Edit Duration (Months)</string>
-    <string name="tvEditDate">Edit Date</string>
+    <string name="tvEditDate">Edit Date (dd/mm/yyyy)</string>
     <string name="edtDate">Edit Date</string>
     <string name="BtnSaveChanges">Save</string>
 
@@ -58,6 +58,7 @@
     <string name="tvWeb6">How to Set Financial Goals
         https://bit.ly/3FqGes5t</string>
     <string name="BtnBackFinanceTips">Go Back</string>
+    <string name="complete">Achieved</string>
 
 
 </resources>
